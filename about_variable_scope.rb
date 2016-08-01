@@ -83,7 +83,7 @@ class AboutVariableScope < Neo::Koan
   # Global variables are prefixed with the '$' character.
 
   def test_global_variables_can_be_accessed_from_any_scope
-    assert_equal __, $anywhere
+    assert_equal "Anywhere", $anywhere
   end
 
   def test_global_variables_can_be_changed_from_any_scope
