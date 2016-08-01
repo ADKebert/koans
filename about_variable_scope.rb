@@ -65,7 +65,7 @@ class AboutVariableScope < Neo::Koan
 
   def test_instance_variable
     oscar = Mouse.new("Oscar")
-    assert_equal __, oscar.name
+    assert_equal "Oscar", oscar.name
   end
 
   def test_class_variable
