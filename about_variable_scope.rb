@@ -39,7 +39,7 @@ class AboutVariableScope < Neo::Koan
     (1..2).each do
       x = 0
     end
-    assert_equal __, defined? x
+    assert_equal nil, defined? x
   end
 
   # ------------------------------------------------------
