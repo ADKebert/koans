@@ -38,10 +38,10 @@ class AboutMethods < Neo::Koan
     end
     assert_match(/argument/, exception.message)
 
-    exception = assert_raise(___) do
+    exception = assert_raise(Exception) do
       my_global_method(1,2,3)
     end
-    assert_match(/__/, exception.message)
+    assert_match(/number/, exception.message)
   end
 
   # ------------------------------------------------------------------
