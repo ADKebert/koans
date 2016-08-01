@@ -103,7 +103,7 @@ class AboutVariableScope < Neo::Koan
       $anywhere = "Hey"
     end
 
-    assert_equal __, $anywhere
+    assert_equal "Hey", $anywhere
   end
 
 end
