@@ -21,7 +21,7 @@ class AboutVariableScope < Neo::Koan
   inaccessible = "Outside our universe"
   def test_defs_cannot_access_variables_outside_scope
     # defined? does not return true or false
-    assert_equal __, defined? inaccesible
+    assert_equal nil, defined? inaccesible
   end
 
   # ------------------------------------------------------
