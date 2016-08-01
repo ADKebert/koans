@@ -15,7 +15,7 @@ class AboutVariableScope < Neo::Koan
   end
 
   def test_we_can_get_noise_by_calling_method
-    assert_equal __, bark
+    assert_equal "RUFF", bark
   end
 
   inaccessible = "Outside our universe"
