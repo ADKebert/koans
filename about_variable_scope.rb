@@ -32,7 +32,7 @@ class AboutVariableScope < Neo::Koan
       test = "Hey"
     end
 
-    assert_equal __, test
+    assert_equal "Hey", test
   end
 
   def test_block_variables_cannot_be_accessed_outside_scope
